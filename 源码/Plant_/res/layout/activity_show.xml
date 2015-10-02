@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="#32CD32"
+    >
+
+                <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="下面可能是你要找的植物："
+                android:textSize="15dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/photo1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/first_pic" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+
+                android:padding="10dp"
+                android:text="植物一"
+                android:textSize="15dp" />
+            
+            
+                        <Button
+                android:id="@+id/bt1"
+                android:onClick="bt1click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:padding="10dp"
+                android:text="详细信息"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#006600"
+            android:layout_marginTop="10dp"/>
+
+   
+    
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/photo2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/first_pic" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+
+                android:padding="10dp"
+                android:text="植物一"
+                android:textSize="15dp" />
+            
+            
+                        <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:onClick="bt2click"
+                android:padding="10dp"
+                android:text="详细信息"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+                  <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#006600"
+            android:layout_marginTop="10dp"/>
+      
+      
+      
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/photo3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/first_pic" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="植物一"
+                android:textSize="15dp" />
+            
+            
+                        <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:onClick="bt3click"
+                android:padding="10dp"
+                android:text="详细信息"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+          <Button
+              android:id="@+id/back"
+              android:onClick="back"
+              android:layout_width="100dp"
+              android:layout_height="50dp"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:text="返回" />
+
+</RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/bg"
+    >
+
+    
+    <TextView
+        android:id="@+id/showContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:background="#9932CC"
+        android:textColor="#7FFF00"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:focusableInTouchMode="true"
+        android:text="欢 迎 使 用 E-encyclopedia 植物识别软件 1.0  这只是一个测试版本 "/>
+    
+        <ImageView
+            android:id="@+id/showPhoto"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/first_pic" />
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">"
+
+        <Button
+            android:id="@+id/doPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+
+android:background="@drawable/photo_1" />
+
+        <Button
+            android:id="@+id/upPhoto"
+            android:onClick="identf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            
+android:background="@drawable/check_1"/>
+        
+                <Button
+            android:id="@+id/qiut"
+            android:onClick="qiut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            
+android:background="@drawable/quit_1"/>
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

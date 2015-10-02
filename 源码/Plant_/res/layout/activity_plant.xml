@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="#32CD32"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/first_pic" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+
+                android:padding="10dp"
+                android:text="植物一"
+                android:textSize="15dp" />
+            
+            
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+
+                android:padding="10dp"
+                android:text="产地："
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+                <TextView
+                    android:id="@+id/intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="植物介绍：又名木犀、岩桂，系木犀科常绿灌木或小乔木，质坚皮薄，叶长椭圆形面端尖，对生，经冬不凋。花生叶腑间，花冠合瓣四裂，形小，其品种有金桂、银桂、丹桂、月桂等。"
+                    android:textSize="10dp" />
+    
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#006600"
+            android:layout_marginTop="10dp"/>
+
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+          <Button
+              android:id="@+id/back"
+              android:onClick="bc"
+              android:layout_width="100dp"
+              android:layout_height="50dp"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:text="返回" />
+
+</RelativeLayout>
+
+
+</LinearLayout>
